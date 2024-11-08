@@ -1,0 +1,7 @@
+bk.test.mysave.app {
+    reverse_proxy backend_c:5000
+}
+
+fk.test.mysave.app {
+    reverse_proxy frontend_c:3000
+}
